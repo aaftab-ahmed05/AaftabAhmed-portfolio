@@ -5,7 +5,7 @@ import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import About from "./components/About/About";
 import Footer from "./components/Footer"
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
   return (
     <>
 
-      <BrowserRouter>
+      <HashRouter>
         <Nav />
         <Routes>
           <Route path='/' element={<Home />}></Route>
@@ -38,7 +38,7 @@ function App() {
         </Routes>
         <div className='cursor' style={{left:location.x, top:location.y}}></div>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
 
 
 
