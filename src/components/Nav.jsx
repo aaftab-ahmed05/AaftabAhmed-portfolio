@@ -28,7 +28,7 @@ function Nav() {
             <div id="navbar" className={scroll ? "updatenav" : ""}>
                 <div id="nav-title">
 
-                    <a href="/">Aaftab <span id="nav-span">Ahmed</span></a>
+                    <a href="/AaftabAhmed-portfolio/">Aaftab <span id="nav-span">Ahmed</span></a>
                 </div>
                 <div id="nav-contents">
                     <ul className="nav-ul">
