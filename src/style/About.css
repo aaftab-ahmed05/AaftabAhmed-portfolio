@@ -99,6 +99,9 @@
 
 
 @media (max-width: 768px) {
+    .about-container1{
+        width: 90%;
+    }
 
     .about-holder {
         width: 90%;
@@ -127,4 +130,5 @@
         width: 95%;
 
     }
+
 }
