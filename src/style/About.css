@@ -1,0 +1,130 @@
+.about-main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.about-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: min(95%,1130px);
+    animation: move-about 0.5s linear;
+    padding: 30px 0 0 0 ;
+}
+
+@keyframes move-about {
+    from {
+        transform: translateY(200px);
+        filter: blur(20px);
+    }
+    
+    to {
+        transform:translateY(0);
+    }
+}
+
+.about-heading {
+    text-align: center;
+    
+}
+
+.about-container1-1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 20px;
+
+}
+
+.about-card{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    min-height: 100px;
+    transition: 0.5s ease;
+    border-left: 4px solid rgb(0, 72, 255);
+    width: min(90%,950px);
+    
+}
+
+.about-card:hover{
+    transform: scale(102%);
+    border-left: 6px solid rgb(255, 255, 255);
+    
+}
+
+.about-card h2{
+ padding: 5px 0 5px 0;
+}
+
+.about-card p{
+    font-size: 1.3rem;
+}
+
+.highlight{
+    color: rgb(10, 145, 255);
+}
+
+.emptyspace{
+    height: 150px;
+    width: 100%;
+}
+
+
+/* .about-container2{
+ 
+} */
+.skills-heading{
+    justify-self: left;
+    text-decoration: underline dotted white;
+}
+
+.interest-heading{
+    justify-self: left;
+    text-decoration: underline dotted white;
+}
+
+
+@media (max-width: 768px) {
+
+    .about-holder {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .about-card {
+        width: 100%;
+    }
+
+    .about-card h2 {
+        font-size: 28px;
+    }
+
+    .about-card p {
+        font-size: 16px;
+    }
+
+    .skills-heading{
+        text-align: center;
+        width: 95%;
+    }
+    
+    .interest-heading{
+        text-align: center;
+        width: 95%;
+
+    }
+}

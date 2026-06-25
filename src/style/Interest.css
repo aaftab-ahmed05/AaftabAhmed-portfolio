@@ -1,0 +1,60 @@
+/*
+*/
+.interest-holder {
+    width: 950px;
+    padding-left: 20px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 40px;
+    /* border: 2px solid wheat; */
+
+}
+
+.interest-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid rgb(15, 137, 231);
+    background-color: rgba(0, 0, 255, 0.138);
+    transition: 0.5s ease;
+}
+
+.interest-card:hover {
+    transform: scale(110%);
+}
+
+.interest-card img {
+    width: 30px;
+}
+
+.interest-card p {
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 768px) {
+
+    .interest-holder {
+        width: 95%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding-left: 0;
+    }
+
+    .interest-card {
+        font-size: 14px;
+    }
+
+    .interest-card img {
+        width: 24px;
+    }
+}

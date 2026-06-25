@@ -1,0 +1,62 @@
+#main-contact {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    padding: 5px;
+
+}
+
+#view-button {
+    height: 50px;
+    width: 170px;
+    font-size: 1.38rem;
+    background-color: rgba(0, 123, 255, 0.4);
+    border-radius: 8px;
+    border: 3px solid rgb(0, 123, 255) ;
+    color: rgb(255, 255, 255) ;
+    font-weight: 550;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.4) ;
+    transition: all 1s ease-in-out;
+}
+
+#view-button:hover {
+    background-color: rgba(0, 123, 255, 0.4) ;
+    color: #FFFFFF;
+    box-shadow: 0 0 100px rgba(0, 123, 255, 0.4) ;
+    font-weight: bolder;
+    transform: scale(120%);
+}
+
+
+.contact a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#linkedin {
+    border-radius: 50%;
+
+}
+
+#github {
+    border-radius: 50%;
+}
+
+.contact {
+    transition: 1s ease;
+    
+}
+
+.contact:hover {
+    box-shadow: 0px 0px 50px #ffffff;
+    transform: scale(120%);
+    
+}
