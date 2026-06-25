@@ -163,4 +163,10 @@
     .developer-img {
         width: 250px;
     }
+
+    #main-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
