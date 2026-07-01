@@ -4,7 +4,7 @@ A modern and responsive personal portfolio website built to showcase my skills, 
 
 🌐 Live Preview
 
-Portfolio Website: (Add your deployed website link here)
+Portfolio Website: https://aaftab-ahmed05.github.io/AaftabAhmed-portfolio/
 
 <img width="1916" height="909" alt="image" src="https://github.com/user-attachments/assets/df34fa85-a8f0-4d43-8e55-639421956819" />
 
